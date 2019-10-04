@@ -15,7 +15,7 @@ LABEL release-date="2019-10-04"
 RUN apk add docker python python-dev build-base py-pip bash nano && \
     rm -rf /var/cache/apk/*
 
-RUN pip requests
+RUN pip install requests
 
 RUN '#!/usr/bin/env python\n\
 import re\n\
