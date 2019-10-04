@@ -11,7 +11,7 @@ elif [[ -z $webhook  &&  -z $interval ]]; then
 fi
 
 while sleep $interval; do
-    pgrep bot.py
+    pgrep "bot.py" && pgrep "python"
     if [ $? == 1 ]; then
         if [[ -n $webhook  &&  -n $interval ]]; then
             python /bot.py $token --daemon --interval $interval --webhook $webhook
