@@ -5,7 +5,7 @@ With this Dockerfile, you can automatically claim your weekly Forzamotorsport Re
 Python Script foked from https://github.com/Schamper/forza-rewards
 
 ## Base Image
-AlpinelLatest
+Alpine | Latest
 
 ## Architecture
 amd32 / amd64
