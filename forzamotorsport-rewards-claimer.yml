@@ -1,0 +1,9 @@
+#Stack: forzamotorsport-rewards-claimer
+version: '3.6'
+services:
+  forzamotorsport-rewards-claimer:
+    image: matze19999/forzamotorsportrewardsclaimer:latest
+    environment:
+      - token=<TOKEN>
+      - interval=1
+#      - webhook=
