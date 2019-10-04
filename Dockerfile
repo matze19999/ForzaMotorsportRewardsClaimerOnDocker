@@ -19,6 +19,8 @@ ADD /bot.py /
 
 ADD /run.sh /
 
+RUN chmod +x /run.sh /bot.py
+
 RUN cd /
 
 CMD ["/bin/bash", "run.sh"]
