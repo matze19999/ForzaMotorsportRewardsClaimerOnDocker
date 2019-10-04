@@ -116,6 +116,8 @@ if __name__ == '__main__':\n\
     bot.run(args.daemon)\n\
 ' > /bot.py
 
+RUN chmod +x /bot.py
+
 RUN cd /
 
 CMD ["python", "bot.py"]
