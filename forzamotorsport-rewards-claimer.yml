@@ -5,5 +5,5 @@ services:
     image: matze19999/forzamotorsportrewardsclaimer:latest
     environment:
       - token=<TOKEN>
-      - interval=1
+      - interval=86401 # 24 hours
 #      - webhook=
